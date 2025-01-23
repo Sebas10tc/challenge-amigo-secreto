@@ -23,15 +23,36 @@ function limpiarlista(){
     amigos=[];
     limpiarCaja();
     agregarAmigosVisible(amigo);
+    cambiarElemento("#resultado","")
 }
 
 function colorearBoton(){
-    if(document.querySelector('#amigo').value!=''){
-        document.getElementById("agregar").style.backgroundColor="red"
+    let botonAgregar=document.getElementById("agregar")
+    let textBoxAmigo=document.querySelector('#amigo')
+    if(textBoxAmigo.value!=''){
+        botonAgregar.style.backgroundColor= "#fe652b"
+        botonAgregar.style.color= "#FFFFFF"
+        botonAgregar.addEventListener('mouseenter', function() {
+            botonAgregar.style.backgroundColor = "#e55720"; 
+        });
+
+        botonAgregar.addEventListener('mouseleave', function() {
+            botonAgregar.style.backgroundColor = "#fe652b"; 
+        });
+
     } else {
-        document.getElementById("agregar").style.backgroundColor = ""
+        botonAgregar.style.backgroundColor = ""
+        botonAgregar.style.color= ""
+        botonAgregar.addEventListener('mouseenter', function() {
+            botonAgregar.style.backgroundColor = "";
+        });
+
+        botonAgregar.addEventListener('mouseleave', function() {
+            botonAgregar.style.backgroundColor = "";
+        });
+
     }
-    document.getElementById("amigo").addEventListener("input", colorearBoton);
+    textBoxAmigo.addEventListener("input", colorearBoton);
 
     
 }
