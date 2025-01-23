@@ -12,7 +12,7 @@ sorteos de amigo secreto. Ideal para reuniones, celebraciones o cualquier activi
 <h2>Descripción</h2>
 
 Amigo Secreto es una herramienta desarrollada con HTML, CSS y JavaScript. 
-Permite a los usuarios agregar participantes a una lsita y realizar sorteos aleatorios para 
+Permite a los usuarios agregar participantes a una lista y realizar sorteos aleatorios para 
 asignar quién será el "amigo secreto". Todo esto sin necesidad de instalar dependencias 
 o herramientas adicionales
 <br>
