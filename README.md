@@ -17,6 +17,14 @@ asignar quién será el "amigo secreto". Todo esto sin necesidad de instalar dep
 o herramientas adicionales
 <br>
 <br>
+<h2>Tecnologías Usadas</h2>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript</li>
+</ul>
+<br>
+<br>
 <h2>Características</h2>
 
 <ul>
