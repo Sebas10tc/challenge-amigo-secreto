@@ -160,3 +160,22 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+/*Botón para limpiar la lista*/
+.button-clean{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 10px 25px;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+.button-clean img {
+    margin-right: 20px;
+    width: 35px;   
+}
+
+.button-clean:hover {
+    background-color: var(--color-button-hover);
+}
