@@ -23,8 +23,7 @@ o herramientas adicionales
   <li>CSS3</li>
   <li>JavaScript</li>
 </ul>
-<br>
-<br>
+
 <h2>Características</h2>
 
 <ul>
