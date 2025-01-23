@@ -49,7 +49,7 @@ o herramientas adicionales
   <li>No necesitas instalar librerías ni configuraciones adicionales.</li>
 </ul>
 
-<h2 >Estrucura del proyecto</h2>
+<h2 >Estructura del proyecto</h2>
 ├── index.html:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archivo principal de la aplicación <br>
 ├── styles.css:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estilos para la interfaz de usuario<br>
 ├── script.js:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lógica de la aplicación<br>
